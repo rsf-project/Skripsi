@@ -1,16 +1,16 @@
 {
-  "TanyaMataKuliah": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 31,
-    "confused_with": {}
-  },
   "start": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
     "support": 2,
+    "confused_with": {}
+  },
+  "TanyaMataKuliah": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 30,
     "confused_with": {}
   },
   "TanyaDosen": {
@@ -22,29 +22,29 @@
   },
   "TanyaMahasiswa": {
     "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 47,
+    "recall": 0.978,
+    "f1-score": 0.989,
+    "support": 46,
     "confused_with": {}
   },
   "TanyaDenganKondisi": {
-    "precision": 1.0,
+    "precision": 0.96,
     "recall": 1.0,
-    "f1-score": 1.0,
+    "f1-score": 0.979,
     "support": 25,
     "confused_with": {}
   },
-  "accuracy": 1.0,
+  "accuracy": 0.984,
   "macro avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 125
+    "precision": 0.99,
+    "recall": 0.994,
+    "f1-score": 0.992,
+    "support": 122
   },
   "weighted avg": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 125
+    "precision": 0.99,
+    "recall": 0.994,
+    "f1-score": 0.992,
+    "support": 122
   }
 }
