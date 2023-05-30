@@ -1,0 +1,28 @@
+version: "2.0"
+
+stories:
+
+- story: Start
+  steps:
+  - intent: start
+  - action: utter_start
+
+- story: TanyaMataKuliah
+  steps:
+  - intent: TanyaMataKuliah
+  - action: Answer
+
+- story: TanyaDosen
+  steps:
+  - intent: TanyaDosen
+  - action: Answer
+
+- story: TanyaMahasiswa
+  steps:
+  - intent: TanyaMahasiswa
+  - action: Answer
+
+- story: TanyaDenganKondisi
+  steps:
+  - intent: TanyaDenganKondisi
+  - action: Answer

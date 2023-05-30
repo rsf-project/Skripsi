@@ -1,0 +1,3275 @@
+[
+  {
+    "text": "tampilkan Satuan Kredit Semester mata kuliah dengan nama yang mengandung kata kripto",
+    "entities": [
+      {
+        "start": 78,
+        "end": 84,
+        "value": "kripto",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 78,
+        "end": 84,
+        "confidence_entity": 0.9975608587265015,
+        "value": "kripto",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan sks dan kode mata kuliah dengan nama Technopreneurship",
+    "entities": [
+      {
+        "start": 47,
+        "end": 64,
+        "value": "Technopreneurship",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 47,
+        "end": 64,
+        "confidence_entity": 0.9982454776763916,
+        "value": "Technopreneurship",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan sks, kode, dan nama dari mata kuliah dengan kode yang diawali huruf FIK",
+    "entities": [
+      {
+        "start": 78,
+        "end": 81,
+        "value": "Fakultas Ilmu Komputer",
+        "entity": "kode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kode",
+        "start": 78,
+        "end": 81,
+        "confidence_entity": 0.9893050193786621,
+        "value": "Fakultas Ilmu Komputer",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "tolong cari kode dari mata kuliah dengan nama kalkulus",
+    "entities": [
+      {
+        "start": 46,
+        "end": 54,
+        "value": "kalkulus",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 46,
+        "end": 54,
+        "confidence_entity": 0.9985713958740234,
+        "value": "kalkulus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa jumlah SKS untuk mata kuliah dengan nama kalkulus ?",
+    "entities": [
+      {
+        "start": 48,
+        "end": 56,
+        "value": "kalkulus",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 48,
+        "end": 56,
+        "confidence_entity": 0.998559296131134,
+        "value": "kalkulus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Temukan kode mata kuliah dengan nama kalkulus",
+    "entities": [
+      {
+        "start": 37,
+        "end": 45,
+        "value": "kalkulus",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 37,
+        "end": 45,
+        "confidence_entity": 0.9983614087104797,
+        "value": "kalkulus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Temukan kode mata kuliah dengan nama Probabilitas dan Statistika",
+    "entities": [
+      {
+        "start": 37,
+        "end": 64,
+        "value": "Probabilitas dan Statistika",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 37,
+        "end": 64,
+        "confidence_entity": 0.7453268766403198,
+        "value": "Probabilitas dan Statistika",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan sks pada mata kuliah dengan nama kalkulus",
+    "entities": [
+      {
+        "start": 43,
+        "end": 51,
+        "value": "kalkulus",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 43,
+        "end": 51,
+        "confidence_entity": 0.9984252452850342,
+        "value": "kalkulus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sebutkan kode dari mata kuliah pengolahan citra",
+    "entities": [
+      {
+        "start": 31,
+        "end": 47,
+        "value": "pengolahan citra",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 31,
+        "end": 47,
+        "confidence_entity": 0.9857940077781677,
+        "value": "pengolahan citra",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan mata kuliah pilihan pada semester 5",
+    "entities": [
+      {
+        "start": 34,
+        "end": 44,
+        "value": "semester 5",
+        "entity": "semester"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.67,
+        "value": "semester 5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan mata kuliah pilihan pada semester 7",
+    "entities": [
+      {
+        "start": 34,
+        "end": 44,
+        "value": "semester 7",
+        "entity": "semester"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.67,
+        "value": "semester 7",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan nama, dan sks mata kuliah pilihan pada semester 2",
+    "entities": [
+      {
+        "start": 48,
+        "end": 58,
+        "value": "semester 2",
+        "entity": "semester"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 48,
+        "end": 58,
+        "confidence_entity": 0.67,
+        "value": "semester 2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Apa saja mata kuliah pilihan yang bisa diambil pada semester 6 ?",
+    "entities": [
+      {
+        "start": 52,
+        "end": 62,
+        "value": "semester 6",
+        "entity": "semester"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 52,
+        "end": 62,
+        "confidence_entity": 0.67,
+        "value": "semester 6",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Apa nama dan sks mata kuliah dengan kode FIK20022 ?",
+    "entities": [
+      {
+        "start": 41,
+        "end": 49,
+        "value": "FIK20022",
+        "entity": "kode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kode",
+        "start": 41,
+        "end": 49,
+        "confidence_entity": 0.998035728931427,
+        "value": "FIK20022",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Apa nama mata kuliah dengan kode FIK23222 ?",
+    "entities": [
+      {
+        "start": 33,
+        "end": 41,
+        "value": "FIK23222",
+        "entity": "kode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kode",
+        "start": 33,
+        "end": 41,
+        "confidence_entity": 0.99735426902771,
+        "value": "FIK23222",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan sks mata kuliah dengan nama SKRIPSI",
+    "entities": [
+      {
+        "start": 38,
+        "end": 45,
+        "value": "SKRIPSI",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 38,
+        "end": 45,
+        "confidence_entity": 0.997363269329071,
+        "value": "SKRIPSI",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar nama mata kuliah dengan nama yang mengandung kata android",
+    "entities": [
+      {
+        "start": 66,
+        "end": 73,
+        "value": "android",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 66,
+        "end": 73,
+        "confidence_entity": 0.9983986020088196,
+        "value": "android",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar nama mata kuliah dengan nama yang mengandung kata game",
+    "entities": [
+      {
+        "start": 66,
+        "end": 70,
+        "value": "game",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 66,
+        "end": 70,
+        "confidence_entity": 0.9975064396858215,
+        "value": "game",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar nama mata kuliah dengan nama yang mengandung kata web",
+    "entities": [
+      {
+        "start": 66,
+        "end": 69,
+        "value": "web",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 66,
+        "end": 69,
+        "confidence_entity": 0.9977699518203735,
+        "value": "web",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "semester berapakah mata kuliah dengan nama mengandung kata kp",
+    "entities": [
+      {
+        "start": 59,
+        "end": 61,
+        "value": "kerja praktek",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 59,
+        "end": 61,
+        "confidence_entity": 0.9951840043067932,
+        "value": "kerja praktek",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "semester berapakah mata kuliah dengan nama mengandung kata skripsi",
+    "entities": [
+      {
+        "start": 59,
+        "end": 66,
+        "value": "skripsi",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 59,
+        "end": 66,
+        "confidence_entity": 0.9984562397003174,
+        "value": "skripsi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "carikan data mata kuliah dengan kode FIK002317",
+    "entities": [
+      {
+        "start": 37,
+        "end": 46,
+        "value": "FIK002317",
+        "entity": "kode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kode",
+        "start": 37,
+        "end": 46,
+        "confidence_entity": 0.9978885054588318,
+        "value": "FIK002317",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Temukan nama matakuliah yang memiliki Kode FIK001XXX",
+    "entities": [
+      {
+        "start": 43,
+        "end": 52,
+        "value": "FIK001XXX",
+        "entity": "kode"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "kode",
+        "start": 43,
+        "end": 52,
+        "confidence_entity": 0.9964099526405334,
+        "value": "FIK001XXX",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "lihat kode matakuliah yang bernama alpro",
+    "entities": [
+      {
+        "start": 35,
+        "end": 40,
+        "value": "algoritma dan pemrograman",
+        "entity": "mata_kuliah"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "mata_kuliah",
+        "start": 35,
+        "end": 40,
+        "confidence_entity": 0.9977680444717407,
+        "value": "algoritma dan pemrograman",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar mk yang memiliki sks 4",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "sks 4",
+        "entity": "sks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sks",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.66,
+        "value": "sks 4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar mk yang memiliki sks 3",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "sks 3",
+        "entity": "sks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sks",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.66,
+        "value": "sks 3",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan daftar mk yang memiliki sks 2",
+    "entities": [
+      {
+        "start": 33,
+        "end": 38,
+        "value": "sks 2",
+        "entity": "sks"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "sks",
+        "start": 33,
+        "end": 38,
+        "confidence_entity": 0.66,
+        "value": "sks 2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan daftar mk pada semester 7",
+    "entities": [
+      {
+        "start": 25,
+        "end": 35,
+        "value": "semester 7",
+        "entity": "semester"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 25,
+        "end": 35,
+        "confidence_entity": 0.67,
+        "value": "semester 7",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Minta daftar dosen yang berjurusan teknik informatika",
+    "entities": [
+      {
+        "start": 35,
+        "end": 53,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 35,
+        "end": 53,
+        "confidence_entity": 0.924574613571167,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Sebutkan nama dosen dengan nomor induk pegawai mengandung angka 001 dan berjenis kelamin pria",
+    "entities": [
+      {
+        "start": 47,
+        "end": 67,
+        "value": "mengandung angka 001",
+        "entity": "nip"
+      },
+      {
+        "start": 89,
+        "end": 93,
+        "value": "pria",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nip",
+        "start": 58,
+        "end": 67,
+        "confidence_entity": 0.46512940526008606,
+        "value": "angka 001",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 89,
+        "end": 93,
+        "confidence_entity": 0.9983306527137756,
+        "value": "pria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan data dosen pembimbing dari mahasiswa yang bernama Adi",
+    "entities": [
+      {
+        "start": 58,
+        "end": 61,
+        "value": "Adi",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 58,
+        "end": 61,
+        "confidence_entity": 0.9826239943504333,
+        "value": "Adi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan data dosen pembimbing dari mahasiswa yang bernama Febyk",
+    "entities": [
+      {
+        "start": 58,
+        "end": 63,
+        "value": "Febyk",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 58,
+        "end": 63,
+        "confidence_entity": 0.9964703321456909,
+        "value": "Febyk",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan data dosen pembimbing dari mahasiswa yang bernama Nadia",
+    "entities": [
+      {
+        "start": 58,
+        "end": 63,
+        "value": "Nadia",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 58,
+        "end": 63,
+        "confidence_entity": 0.9977464079856873,
+        "value": "Nadia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa NIP dosen dengan nama abdiansyah ?",
+    "entities": [
+      {
+        "start": 29,
+        "end": 39,
+        "value": "abdiansyah",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 29,
+        "end": 39,
+        "confidence_entity": 0.9967712759971619,
+        "value": "abdiansyah",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan profil dosen dengan nama berawalan kata nabila",
+    "entities": [
+      {
+        "start": 50,
+        "end": 56,
+        "value": "nabila",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 50,
+        "end": 56,
+        "confidence_entity": 0.995438277721405,
+        "value": "nabila",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa dosen PA mahasiswa yang memiliki NIM 0902118182XXXX ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 57,
+        "value": "NIM 0902118182XXXX",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 39,
+        "end": 57,
+        "confidence_entity": 0.9972463846206665,
+        "value": "NIM 0902118182XXXX",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa dosen pembimbing dari mahasiswa dengan nim xxxxxxxx",
+    "entities": [
+      {
+        "start": 45,
+        "end": 57,
+        "value": "nim xxxxxxxx",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 45,
+        "end": 57,
+        "confidence_entity": 0.9832959771156311,
+        "value": "nim xxxxxxxx",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa nip dosen yang bernama qurhanul ?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 38,
+        "value": "qurhanul",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 30,
+        "end": 38,
+        "confidence_entity": 0.9967772364616394,
+        "value": "qurhanul",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa nip dosen yang memiliki nama naufal ?",
+    "entities": [
+      {
+        "start": 36,
+        "end": 42,
+        "value": "naufal",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 36,
+        "end": 42,
+        "confidence_entity": 0.9962718486785889,
+        "value": "naufal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa saja dosen teknik informatika yang berjenis kelamin perempuan ?",
+    "entities": [
+      {
+        "start": 17,
+        "end": 35,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 58,
+        "end": 67,
+        "value": "perempuan",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 17,
+        "end": 35,
+        "confidence_entity": 0.8522781133651733,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 58,
+        "end": 67,
+        "confidence_entity": 0.99895179271698,
+        "value": "perempuan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa saja dosen yang berjenis kelamin laki-laki ?",
+    "entities": [
+      {
+        "start": 39,
+        "end": 48,
+        "value": "laki-laki",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 39,
+        "end": 48,
+        "confidence_entity": 0.9926860332489014,
+        "value": "laki-laki",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cari nama dosen laki laki teknik informatika",
+    "entities": [
+      {
+        "start": 16,
+        "end": 25,
+        "value": "laki laki",
+        "entity": "gender"
+      },
+      {
+        "start": 26,
+        "end": 44,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 16,
+        "end": 25,
+        "confidence_entity": 0.5238666534423828,
+        "value": "laki laki",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "jurusan",
+        "start": 26,
+        "end": 44,
+        "confidence_entity": 0.9281310439109802,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa saja dosen dari jurusan teknik informatika yang berjenis kelamin laki-laki ?",
+    "entities": [
+      {
+        "start": 30,
+        "end": 48,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 71,
+        "end": 80,
+        "value": "laki-laki",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 30,
+        "end": 48,
+        "confidence_entity": 0.9003654718399048,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 71,
+        "end": 80,
+        "confidence_entity": 0.9944356679916382,
+        "value": "laki-laki",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan nomor induk pegawai dari dosen yang memiliki nama mengandung kata santoso",
+    "entities": [
+      {
+        "start": 75,
+        "end": 82,
+        "value": "santoso",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 75,
+        "end": 82,
+        "confidence_entity": 0.9950748085975647,
+        "value": "santoso",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Carikan data mahasiswa yang angkatan 2018 dan berjenis kelamin lelaki",
+    "entities": [
+      {
+        "start": 28,
+        "end": 41,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 63,
+        "end": 69,
+        "value": "lelaki",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 28,
+        "end": 41,
+        "confidence_entity": 0.5556880831718445,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 63,
+        "end": 69,
+        "confidence_entity": 0.9978880286216736,
+        "value": "lelaki",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tolong berikan daftar nama mahasiswa yang berjenis kelamin wanita",
+    "entities": [
+      {
+        "start": 59,
+        "end": 65,
+        "value": "wanita",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 59,
+        "end": 65,
+        "confidence_entity": 0.9986234903335571,
+        "value": "wanita",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan mahasiswa dengan dosen pembimbing abdiansyah",
+    "entities": [
+      {
+        "start": 44,
+        "end": 54,
+        "value": "abdiansyah",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 44,
+        "end": 54,
+        "confidence_entity": 0.9962728023529053,
+        "value": "abdiansyah",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama, angkatan, dan program studi mahasiswa dengan nomor induk mahasiswa diakhiri angka 20 dan tahun angkatan dibawah 2018",
+    "entities": [
+      {
+        "start": 83,
+        "end": 100,
+        "value": "diakhiri angka 20",
+        "entity": "nim"
+      },
+      {
+        "start": 111,
+        "end": 132,
+        "value": "angkatan dibawah 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 16,
+        "end": 24,
+        "confidence_entity": 0.543178915977478,
+        "value": "angkatan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "prodi",
+        "start": 30,
+        "end": 37,
+        "confidence_entity": 0.6988584995269775,
+        "value": "program",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nim",
+        "start": 83,
+        "end": 100,
+        "confidence_entity": 0.44,
+        "value": "diakhiri angka 20",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 111,
+        "end": 132,
+        "confidence_entity": 0.712101936340332,
+        "value": "angkatan dibawah 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Temukan data mahasiswa dengan nama adi",
+    "entities": [
+      {
+        "start": 35,
+        "end": 38,
+        "value": "adi",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9475465416908264,
+        "value": "adi",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Temukan nama mahasiswa yang memiliki NIM 09021181823168",
+    "entities": [
+      {
+        "start": 37,
+        "end": 55,
+        "value": "NIM 09021181823168",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 37,
+        "end": 55,
+        "confidence_entity": 0.6439656019210815,
+        "value": "NIM 09021181823168",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa nama mahasiswa yang memiliki NIM 09021281823039 ?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 53,
+        "value": "NIM 09021281823039",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 35,
+        "end": 53,
+        "confidence_entity": 0.6537171006202698,
+        "value": "NIM 09021281823039",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa IPK mahasiswa dengan NIM 0902181823003 ?",
+    "entities": [
+      {
+        "start": 28,
+        "end": 45,
+        "value": "NIM 0902181823003",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 28,
+        "end": 45,
+        "confidence_entity": 0.6585376262664795,
+        "value": "NIM 0902181823003",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "berapa nilai suliet mahasiswa dengan nim 09021181823003",
+    "entities": [
+      {
+        "start": 37,
+        "end": 55,
+        "value": "nim 09021181823003",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 37,
+        "end": 55,
+        "confidence_entity": 0.66,
+        "value": "nim 09021181823003",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Carikan data mahasiswa dengan NIM 09021281823051",
+    "entities": [
+      {
+        "start": 30,
+        "end": 48,
+        "value": "NIM 09021281823051",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 30,
+        "end": 48,
+        "confidence_entity": 0.6520239114761353,
+        "value": "NIM 09021281823051",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan Indeks Prestasi Kumulatif mahasiswa dengan nim 0902xxxxx",
+    "entities": [
+      {
+        "start": 52,
+        "end": 65,
+        "value": "nim 0902xxxxx",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 52,
+        "end": 65,
+        "confidence_entity": 0.9819427132606506,
+        "value": "nim 0902xxxxx",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa nama mahasiswa yang memiliki NIM 0902118182XXXX ?",
+    "entities": [
+      {
+        "start": 35,
+        "end": 53,
+        "value": "NIM 0902118182XXXX",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 35,
+        "end": 53,
+        "confidence_entity": 0.9972801208496094,
+        "value": "NIM 0902118182XXXX",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan data mahasiswa yang bernama Dahlia",
+    "entities": [
+      {
+        "start": 38,
+        "end": 44,
+        "value": "Dahlia",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 38,
+        "end": 44,
+        "confidence_entity": 0.9961977601051331,
+        "value": "Dahlia",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan nama mahasiswa yang memiliki nim 0902118xxxx",
+    "entities": [
+      {
+        "start": 37,
+        "end": 52,
+        "value": "nim 0902118xxxx",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 37,
+        "end": 52,
+        "confidence_entity": 0.9832444190979004,
+        "value": "nim 0902118xxxx",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan mahasiswa teknik informatika angkatan 2017",
+    "entities": [
+      {
+        "start": 39,
+        "end": 52,
+        "value": "angkatan 2017",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 20,
+        "end": 38,
+        "confidence_entity": 0.7930788993835449,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 39,
+        "end": 52,
+        "confidence_entity": 0.6774270534515381,
+        "value": "angkatan 2017",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berapa nim mahasiswa dengan nama mengandung kata virani ?",
+    "entities": [
+      {
+        "start": 49,
+        "end": 55,
+        "value": "virani",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 49,
+        "end": 55,
+        "confidence_entity": 0.9980789422988892,
+        "value": "virani",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan daftar nama mahasiswa yang berjenis kelamin perempuan pada jurusan Informatika angkatan 2018",
+    "entities": [
+      {
+        "start": 54,
+        "end": 63,
+        "value": "perempuan",
+        "entity": "gender"
+      },
+      {
+        "start": 77,
+        "end": 88,
+        "value": "Informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 89,
+        "end": 102,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.9988589286804199,
+        "value": "perempuan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "jurusan",
+        "start": 77,
+        "end": 88,
+        "confidence_entity": 0.46561911702156067,
+        "value": "Informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 89,
+        "end": 102,
+        "confidence_entity": 0.7152798175811768,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan daftar nama mahasiswa yang berjenis kelamin pria",
+    "entities": [
+      {
+        "start": 54,
+        "end": 58,
+        "value": "pria",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 54,
+        "end": 58,
+        "confidence_entity": 0.9983263611793518,
+        "value": "pria",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama mahasiswa yang jenis kelaminnya perempuan",
+    "entities": [
+      {
+        "start": 47,
+        "end": 56,
+        "value": "perempuan",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 47,
+        "end": 56,
+        "confidence_entity": 0.9987786412239075,
+        "value": "perempuan",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan mahasiswa yang berjenis kelamin wanita",
+    "entities": [
+      {
+        "start": 40,
+        "end": 46,
+        "value": "wanita",
+        "entity": "gender"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 40,
+        "end": 46,
+        "confidence_entity": 0.9981915354728699,
+        "value": "wanita",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapakah mahasiswa dengan NIM 09021281823172 ?",
+    "entities": [
+      {
+        "start": 26,
+        "end": 44,
+        "value": "NIM 09021281823172",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 26,
+        "end": 44,
+        "confidence_entity": 0.6559361219406128,
+        "value": "NIM 09021281823172",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan data NIM seluruh mahasiswa yang angkatan 2018",
+    "entities": [
+      {
+        "start": 42,
+        "end": 55,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 42,
+        "end": 55,
+        "confidence_entity": 0.707530677318573,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "siapa nama mahasiswa dan tahun angkatan dengan nim 09021281823057",
+    "entities": [
+      {
+        "start": 47,
+        "end": 65,
+        "value": "nim 09021281823057",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 31,
+        "end": 39,
+        "confidence_entity": 0.9418923258781433,
+        "value": "angkatan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nim",
+        "start": 47,
+        "end": 65,
+        "confidence_entity": 0.66,
+        "value": "nim 09021281823057",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa nama mahasiswa yang memiliki nim 09021281823057",
+    "entities": [
+      {
+        "start": 35,
+        "end": 53,
+        "value": "nim 09021281823057",
+        "entity": "nim"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 35,
+        "end": 53,
+        "confidence_entity": 0.66,
+        "value": "nim 09021281823057",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan data NIM seluruh mahasiswa dengan angkatan 2018",
+    "entities": [
+      {
+        "start": 44,
+        "end": 57,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 44,
+        "end": 57,
+        "confidence_entity": 0.707146406173706,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Siapa saja mahasiswa teknik informatika reguler angkatan 2018",
+    "entities": [
+      {
+        "start": 21,
+        "end": 39,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 40,
+        "end": 47,
+        "value": "reguler",
+        "entity": "prodi"
+      },
+      {
+        "start": 48,
+        "end": 61,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 21,
+        "end": 39,
+        "confidence_entity": 0.8569655418395996,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "prodi",
+        "start": 40,
+        "end": 47,
+        "confidence_entity": 0.6526254415512085,
+        "value": "reguler",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 48,
+        "end": 61,
+        "confidence_entity": 0.7192432284355164,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan mahasiswa dengan program studi Bilingual angkatan 2018 ?",
+    "entities": [
+      {
+        "start": 27,
+        "end": 50,
+        "value": "program studi Bilingual",
+        "entity": "prodi"
+      },
+      {
+        "start": 51,
+        "end": 64,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "prodi",
+        "start": 27,
+        "end": 50,
+        "confidence_entity": 0.7678666710853577,
+        "value": "program studi Bilingual",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 51,
+        "end": 64,
+        "confidence_entity": 0.7022000551223755,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nim mahasiswa yang namanya jamal",
+    "entities": [
+      {
+        "start": 37,
+        "end": 42,
+        "value": "jamal",
+        "entity": "nama_mahasiswa"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 37,
+        "end": 42,
+        "confidence_entity": 0.9950237274169922,
+        "value": "jamal",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan daftar nama mahasiswa dengan jurusan berakhiran kata Informatika dan program studi Reguler dan tahun angkatan 2015",
+    "entities": [
+      {
+        "start": 63,
+        "end": 74,
+        "value": "Informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 79,
+        "end": 100,
+        "value": "program studi Reguler",
+        "entity": "prodi"
+      },
+      {
+        "start": 111,
+        "end": 124,
+        "value": "angkatan 2015",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 47,
+        "end": 57,
+        "confidence_entity": 0.5120871067047119,
+        "value": "berakhiran",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nama_mahasiswa",
+        "start": 58,
+        "end": 74,
+        "confidence_entity": 0.62,
+        "value": "kata Informatika",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "prodi",
+        "start": 79,
+        "end": 100,
+        "confidence_entity": 0.6802804470062256,
+        "value": "program studi Reguler",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 111,
+        "end": 124,
+        "confidence_entity": 0.774005651473999,
+        "value": "angkatan 2015",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan daftar nama mahasiswa yang berjenis kelamin perempuan pada jurusan TI angkatan 2018",
+    "entities": [
+      {
+        "start": 54,
+        "end": 63,
+        "value": "perempuan",
+        "entity": "gender"
+      },
+      {
+        "start": 69,
+        "end": 79,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 80,
+        "end": 93,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 54,
+        "end": 63,
+        "confidence_entity": 0.9988945126533508,
+        "value": "perempuan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "jurusan",
+        "start": 69,
+        "end": 79,
+        "confidence_entity": 0.579630434513092,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 80,
+        "end": 93,
+        "confidence_entity": 0.7156698107719421,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "berikan data mahasiswa dengan ipk 4",
+    "entities": [
+      {
+        "start": 30,
+        "end": 35,
+        "value": "ipk 4",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "ipk",
+        "start": 30,
+        "end": 35,
+        "confidence_entity": 0.65,
+        "value": "ipk 4",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan daftar nama mahasiswa yang berjenis kelamin perempuan angkatan 2020",
+    "entities": [
+      {
+        "start": 52,
+        "end": 61,
+        "value": "perempuan",
+        "entity": "gender"
+      },
+      {
+        "start": 71,
+        "end": 75,
+        "value": "2020",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "gender",
+        "start": 52,
+        "end": 61,
+        "confidence_entity": 0.998894989490509,
+        "value": "perempuan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 62,
+        "end": 75,
+        "confidence_entity": 0.7347033023834229,
+        "value": "angkatan 2020",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan nomor induk mahasiswa dan nama dari mahasiswa yang berangkatan dibawah 2019",
+    "entities": [
+      {
+        "start": 60,
+        "end": 84,
+        "value": "berangkatan dibawah 2019",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 60,
+        "end": 84,
+        "confidence_entity": 0.6826611757278442,
+        "value": "berangkatan dibawah 2019",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan nama mata kuliah pada semester 6 urutkan berdasarkan nama dan batasi 9 data secara unik",
+    "entities": [
+      {
+        "start": 31,
+        "end": 41,
+        "value": "semester 6",
+        "entity": "semester"
+      },
+      {
+        "start": 50,
+        "end": 66,
+        "value": "berdasarkan nama",
+        "entity": "order_by"
+      },
+      {
+        "start": 71,
+        "end": 79,
+        "value": "batasi 9",
+        "entity": "limit_unique"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "semester",
+        "start": 31,
+        "end": 41,
+        "confidence_entity": 0.67,
+        "value": "semester 6",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 50,
+        "end": 66,
+        "confidence_entity": 0.567335844039917,
+        "value": "berdasarkan nama",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 71,
+        "end": 79,
+        "confidence_entity": 0.6,
+        "value": "batasi 9",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama matakuliah dengan kode diakhiri angka 10 batasi 2 data",
+    "entities": [
+      {
+        "start": 47,
+        "end": 55,
+        "value": "angka 10",
+        "entity": "kode"
+      },
+      {
+        "start": 56,
+        "end": 64,
+        "value": "batasi 2",
+        "entity": "limit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 38,
+        "end": 46,
+        "confidence_entity": 0.640540599822998,
+        "value": "diakhiri",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 47,
+        "end": 55,
+        "confidence_entity": 0.4584066569805145,
+        "value": "angka 10",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 56,
+        "end": 64,
+        "confidence_entity": 0.62,
+        "value": "batasi 2",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama dosen dengan nama diawali huruf a dan nip diawali angka 1 urutkan berdasarkan nip batasi 5 data secara unik",
+    "entities": [
+      {
+        "start": 33,
+        "end": 48,
+        "value": "diawali huruf a",
+        "entity": "nama_dosen"
+      },
+      {
+        "start": 57,
+        "end": 72,
+        "value": "diawali angka 1",
+        "entity": "nip"
+      },
+      {
+        "start": 81,
+        "end": 96,
+        "value": "berdasarkan nip",
+        "entity": "order_by"
+      },
+      {
+        "start": 97,
+        "end": 105,
+        "value": "batasi 5",
+        "entity": "limit_unique"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_dosen",
+        "start": 33,
+        "end": 48,
+        "confidence_entity": 0.5647984743118286,
+        "value": "diawali huruf a",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by",
+        "start": 53,
+        "end": 56,
+        "confidence_entity": 0.41268157958984375,
+        "value": "nip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nip",
+        "start": 57,
+        "end": 72,
+        "confidence_entity": 0.5698027014732361,
+        "value": "diawali angka 1",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 81,
+        "end": 96,
+        "confidence_entity": 0.52,
+        "value": "berdasarkan nip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 97,
+        "end": 105,
+        "confidence_entity": 0.55,
+        "value": "batasi 5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan data dosen batasi 5 data",
+    "entities": [
+      {
+        "start": 19,
+        "end": 27,
+        "value": "batasi 5",
+        "entity": "limit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "limit",
+        "start": 19,
+        "end": 27,
+        "confidence_entity": 0.281372606754303,
+        "value": "batasi 5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan data dosen urutkan berdasarkan nip meningkat nama menurun",
+    "entities": [
+      {
+        "start": 27,
+        "end": 42,
+        "value": "berdasarkan nip",
+        "entity": "order_by_desc"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "value": "nama",
+        "entity": "nama_dosen"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "order_by_desc",
+        "start": 27,
+        "end": 42,
+        "confidence_entity": 0.606456995010376,
+        "value": "berdasarkan nip",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.45261573791503906,
+        "value": "nama",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama mahasiswa secara unik yang memiliki nim berawalan 090210 atau nim berawalan 090211 dan angkatan 2018 atau angkatan diatas angkatan 2019 dengan jenis kelamin laki laki batasi 5 data urutkan berdasarkan nim",
+    "entities": [
+      {
+        "start": 55,
+        "end": 71,
+        "value": "berawalan 090210",
+        "entity": "nim"
+      },
+      {
+        "start": 72,
+        "end": 76,
+        "value": "or",
+        "entity": "condition"
+      },
+      {
+        "start": 81,
+        "end": 97,
+        "value": "berawalan 090211",
+        "entity": "nim"
+      },
+      {
+        "start": 98,
+        "end": 101,
+        "value": "and",
+        "entity": "condition"
+      },
+      {
+        "start": 102,
+        "end": 115,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 116,
+        "end": 120,
+        "value": "or",
+        "entity": "condition"
+      },
+      {
+        "start": 130,
+        "end": 136,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 137,
+        "end": 150,
+        "value": "angkatan 2019",
+        "entity": "angkatan"
+      },
+      {
+        "start": 172,
+        "end": 181,
+        "value": "laki laki",
+        "entity": "gender"
+      },
+      {
+        "start": 182,
+        "end": 190,
+        "value": "batasi 5",
+        "entity": "limit"
+      },
+      {
+        "start": 204,
+        "end": 219,
+        "value": "berdasarkan nim",
+        "entity": "order_by"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nim",
+        "start": 51,
+        "end": 54,
+        "confidence_entity": 0.37718063592910767,
+        "value": "nim",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nim",
+        "start": 55,
+        "end": 71,
+        "confidence_entity": 0.66,
+        "value": "berawalan 090210",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 72,
+        "end": 76,
+        "confidence_entity": 0.9984847903251648,
+        "value": "or",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "nim",
+        "start": 81,
+        "end": 97,
+        "confidence_entity": 0.66,
+        "value": "berawalan 090211",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 98,
+        "end": 101,
+        "confidence_entity": 0.7443481087684631,
+        "value": "and",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 102,
+        "end": 115,
+        "confidence_entity": 0.6794325709342957,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 116,
+        "end": 120,
+        "confidence_entity": 0.9978415966033936,
+        "value": "or",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 121,
+        "end": 129,
+        "confidence_entity": 0.9573026895523071,
+        "value": "angkatan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 130,
+        "end": 136,
+        "confidence_entity": 0.9986540079116821,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 137,
+        "end": 150,
+        "confidence_entity": 0.6269136667251587,
+        "value": "angkatan 2019",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "gender",
+        "start": 172,
+        "end": 181,
+        "confidence_entity": 0.5351667404174805,
+        "value": "laki laki",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 182,
+        "end": 190,
+        "confidence_entity": 0.61,
+        "value": "batasi 5",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by",
+        "start": 204,
+        "end": 219,
+        "confidence_entity": 0.5766934156417847,
+        "value": "berdasarkan nim",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan secara unik nama dan nilai usept dari mahasiswa yang nilai useptnya 500 urutkan berdasarkan nama menurun",
+    "entities": [
+      {
+        "start": 61,
+        "end": 79,
+        "value": "nilai useptnya 500",
+        "entity": "nilai_suliet"
+      },
+      {
+        "start": 88,
+        "end": 104,
+        "value": "berdasarkan nama",
+        "entity": "order_by_desc"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nilai_suliet",
+        "start": 29,
+        "end": 34,
+        "confidence_entity": 0.7631661891937256,
+        "value": "nilai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 41,
+        "end": 45,
+        "confidence_entity": 0.7544217109680176,
+        "value": "dari",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nilai_suliet",
+        "start": 61,
+        "end": 79,
+        "confidence_entity": 0.79,
+        "value": "nilai useptnya 500",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 88,
+        "end": 104,
+        "confidence_entity": 0.5765217542648315,
+        "value": "berdasarkan nama",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan ipk , dan nama mahasiswa yang berangkatan 2018 urutkan berdasarkan ipk menurun batasi 10 data",
+    "entities": [
+      {
+        "start": 40,
+        "end": 56,
+        "value": "berangkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 65,
+        "end": 80,
+        "value": "berdasarkan ipk",
+        "entity": "order_by_desc"
+      },
+      {
+        "start": 89,
+        "end": 98,
+        "value": "batasi 10",
+        "entity": "limit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 40,
+        "end": 56,
+        "confidence_entity": 0.5864768028259277,
+        "value": "berangkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 65,
+        "end": 80,
+        "confidence_entity": 0.5849984288215637,
+        "value": "berdasarkan ipk",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 89,
+        "end": 98,
+        "confidence_entity": 0.59,
+        "value": "batasi 10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan nama mahasiswa dengan IPK lebih besar dari tiga batasi 5 data",
+    "entities": [
+      {
+        "start": 36,
+        "end": 52,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 53,
+        "end": 57,
+        "value": "tiga",
+        "entity": "ipk"
+      },
+      {
+        "start": 58,
+        "end": 66,
+        "value": "batasi 5",
+        "entity": "limit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 36,
+        "end": 52,
+        "confidence_entity": 0.8880839347839355,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 53,
+        "end": 57,
+        "confidence_entity": 0.7806123495101929,
+        "value": "tiga",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 58,
+        "end": 66,
+        "confidence_entity": 0.61,
+        "value": "batasi 5",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tolong carikan nama mahasiswa yang angkatan 2018 urutkan berdasarkan NIM secara menurun",
+    "entities": [
+      {
+        "start": 35,
+        "end": 48,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 57,
+        "end": 72,
+        "value": "berdasarkan NIM",
+        "entity": "order_by_desc"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 35,
+        "end": 48,
+        "confidence_entity": 0.5909356474876404,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "order_by_desc",
+        "start": 57,
+        "end": 72,
+        "confidence_entity": 0.6464439630508423,
+        "value": "berdasarkan NIM",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tolong temukan data mahasiswa dengan angkatan dibawah 2018 batasi 10 data",
+    "entities": [
+      {
+        "start": 37,
+        "end": 58,
+        "value": "angkatan dibawah 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 59,
+        "end": 68,
+        "value": "batasi 10",
+        "entity": "limit"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 37,
+        "end": 58,
+        "confidence_entity": 0.486503005027771,
+        "value": "angkatan dibawah 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "limit",
+        "start": 59,
+        "end": 68,
+        "confidence_entity": 0.62,
+        "value": "batasi 10",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan data mahasiswa dengan nama mengandung kata awan dan tahun angkatan 2018 atau angkatan 2019",
+    "entities": [
+      {
+        "start": 48,
+        "end": 57,
+        "value": "kata awan",
+        "entity": "nama_mahasiswa"
+      },
+      {
+        "start": 68,
+        "end": 81,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 82,
+        "end": 86,
+        "value": "or",
+        "entity": "condition"
+      },
+      {
+        "start": 87,
+        "end": 100,
+        "value": "angkatan 2019",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 48,
+        "end": 57,
+        "confidence_entity": 0.9693608283996582,
+        "value": "kata awan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "angkatan",
+        "start": 68,
+        "end": 81,
+        "confidence_entity": 0.6355462670326233,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 82,
+        "end": 86,
+        "confidence_entity": 0.9984101057052612,
+        "value": "or",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 87,
+        "end": 100,
+        "confidence_entity": 0.7654383182525635,
+        "value": "angkatan 2019",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan data mahasiswa yang memiliki nama mengandung kata adi atau nama berakhiran huruf a ipk diatas tiga ?",
+    "entities": [
+      {
+        "start": 53,
+        "end": 61,
+        "value": "kata adi",
+        "entity": "nama_mahasiswa"
+      },
+      {
+        "start": 62,
+        "end": 66,
+        "value": "or",
+        "entity": "condition"
+      },
+      {
+        "start": 72,
+        "end": 90,
+        "value": "berakhiran huruf a",
+        "entity": "nama_mahasiswa"
+      },
+      {
+        "start": 95,
+        "end": 101,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 102,
+        "end": 106,
+        "value": "tiga",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 53,
+        "end": 61,
+        "confidence_entity": 0.9319370985031128,
+        "value": "kata adi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 62,
+        "end": 66,
+        "confidence_entity": 0.9984447360038757,
+        "value": "or",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "nama_mahasiswa",
+        "start": 72,
+        "end": 90,
+        "confidence_entity": 0.5464044809341431,
+        "value": "berakhiran huruf a",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 95,
+        "end": 101,
+        "confidence_entity": 0.9990748167037964,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 102,
+        "end": 106,
+        "confidence_entity": 0.9570733308792114,
+        "value": "tiga",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "sebutkan mahasiswa yang nilai sulietnya 500",
+    "entities": [
+      {
+        "start": 24,
+        "end": 43,
+        "value": "nilai sulietnya 500",
+        "entity": "nilai_suliet"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nilai_suliet",
+        "start": 24,
+        "end": 43,
+        "confidence_entity": 0.6336260437965393,
+        "value": "nilai sulietnya 500",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan mahasiswa dengan nim diatas 0902 dan angkatan dibawah 2018",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "0902",
+        "entity": "nim"
+      },
+      {
+        "start": 47,
+        "end": 68,
+        "value": "angkatan dibawah 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 31,
+        "end": 42,
+        "confidence_entity": 0.5247640013694763,
+        "value": "diatas 0902",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 43,
+        "end": 46,
+        "confidence_entity": 0.5309909582138062,
+        "value": "and",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 47,
+        "end": 68,
+        "confidence_entity": 0.6988125443458557,
+        "value": "angkatan dibawah 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan nama mahasiswa dengan nilai suliet lebih besar dari lima ratus",
+    "entities": [
+      {
+        "start": 45,
+        "end": 61,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 62,
+        "end": 72,
+        "value": "lima ratus",
+        "entity": "nilai_suliet"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 45,
+        "end": 61,
+        "confidence_entity": 0.8302443027496338,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "nilai_suliet",
+        "start": 62,
+        "end": 72,
+        "confidence_entity": 0.8739629983901978,
+        "value": "lima ratus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan data mahasiswa dengan IPK kurang dari tiga",
+    "entities": [
+      {
+        "start": 34,
+        "end": 45,
+        "value": "less than",
+        "entity": "condition"
+      },
+      {
+        "start": 46,
+        "end": 50,
+        "value": "tiga",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 34,
+        "end": 45,
+        "confidence_entity": 0.9906808733940125,
+        "value": "less than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 46,
+        "end": 50,
+        "confidence_entity": 0.9437105059623718,
+        "value": "tiga",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Berikan data mahasiswa dengan IPK lebih dari tiga",
+    "entities": [
+      {
+        "start": 34,
+        "end": 44,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 45,
+        "end": 49,
+        "value": "tiga",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 34,
+        "end": 44,
+        "confidence_entity": 0.9932234287261963,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 45,
+        "end": 49,
+        "confidence_entity": 0.9413711428642273,
+        "value": "tiga",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Cari data mahasiswa yang memiliki nilai Suliet lebih dari enam ratus",
+    "entities": [
+      {
+        "start": 47,
+        "end": 57,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 58,
+        "end": 68,
+        "value": "enam ratus",
+        "entity": "nilai_suliet"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 47,
+        "end": 57,
+        "confidence_entity": 0.9854713678359985,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "nilai_suliet",
+        "start": 58,
+        "end": 68,
+        "confidence_entity": 0.9943822622299194,
+        "value": "enam ratus",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "siapa mahasiswa dengan ipk dibawah dua",
+    "entities": [
+      {
+        "start": 27,
+        "end": 34,
+        "value": "less than",
+        "entity": "condition"
+      },
+      {
+        "start": 35,
+        "end": 38,
+        "value": "dua",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 27,
+        "end": 34,
+        "confidence_entity": 0.6046112775802612,
+        "value": "less than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 35,
+        "end": 38,
+        "confidence_entity": 0.9883860349655151,
+        "value": "dua",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan mahasiswa dengan IPK diatas tiga",
+    "entities": [
+      {
+        "start": 31,
+        "end": 37,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 38,
+        "end": 42,
+        "value": "tiga",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 31,
+        "end": 37,
+        "confidence_entity": 0.9980308413505554,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 38,
+        "end": 42,
+        "confidence_entity": 0.9578437805175781,
+        "value": "tiga",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan mahasiswa dengan nama berawalan kata adi dan angkatan 2018 atau lebih besar dari angkatan 2018",
+    "entities": [
+      {
+        "start": 40,
+        "end": 48,
+        "value": "kata adi",
+        "entity": "nama_mahasiswa"
+      },
+      {
+        "start": 49,
+        "end": 52,
+        "value": "and",
+        "entity": "condition"
+      },
+      {
+        "start": 53,
+        "end": 66,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      },
+      {
+        "start": 67,
+        "end": 71,
+        "value": "or",
+        "entity": "condition"
+      },
+      {
+        "start": 72,
+        "end": 88,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 89,
+        "end": 102,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "nama_mahasiswa",
+        "start": 40,
+        "end": 48,
+        "confidence_entity": 0.9723366498947144,
+        "value": "kata adi",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 49,
+        "end": 52,
+        "confidence_entity": 0.8921759724617004,
+        "value": "and",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 53,
+        "end": 66,
+        "confidence_entity": 0.6542264223098755,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 67,
+        "end": 71,
+        "confidence_entity": 0.9985153079032898,
+        "value": "or",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "condition",
+        "start": 72,
+        "end": 88,
+        "confidence_entity": 0.9002417922019958,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 89,
+        "end": 102,
+        "confidence_entity": 0.7807996273040771,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "Tampilkan daftar nama mahasiswa yang memiliki ipk lebih besar tiga koma lima",
+    "entities": [
+      {
+        "start": 50,
+        "end": 61,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 62,
+        "end": 76,
+        "value": "tiga koma lima",
+        "entity": "ipk"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "condition",
+        "start": 50,
+        "end": 61,
+        "confidence_entity": 0.80536949634552,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "ipk",
+        "start": 62,
+        "end": 76,
+        "confidence_entity": 0.6902660727500916,
+        "value": "tiga koma lima",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "temukan daftar mahasiswa dengan [angkatan 2018] dan jurusan teknik informatika",
+    "entities": [
+      {
+        "start": 48,
+        "end": 51,
+        "value": "and",
+        "entity": "condition"
+      },
+      {
+        "start": 60,
+        "end": 78,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "angkatan",
+        "start": 33,
+        "end": 46,
+        "confidence_entity": 0.5673633813858032,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 48,
+        "end": 51,
+        "confidence_entity": 0.7342196106910706,
+        "value": "and",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "jurusan",
+        "start": 60,
+        "end": 78,
+        "confidence_entity": 0.867061972618103,
+        "value": "teknik informatika",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  },
+  {
+    "text": "tampilkan daftar nama mahasiswa dari jurusan ti yang nilai sulietnya diatas lima ratus dan angkatan diatas angkatan 2018",
+    "entities": [
+      {
+        "start": 37,
+        "end": 47,
+        "value": "teknik informatika",
+        "entity": "jurusan"
+      },
+      {
+        "start": 69,
+        "end": 75,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 76,
+        "end": 86,
+        "value": "lima ratus",
+        "entity": "nilai_suliet"
+      },
+      {
+        "start": 87,
+        "end": 90,
+        "value": "and",
+        "entity": "condition"
+      },
+      {
+        "start": 100,
+        "end": 106,
+        "value": "more than",
+        "entity": "condition"
+      },
+      {
+        "start": 107,
+        "end": 120,
+        "value": "angkatan 2018",
+        "entity": "angkatan"
+      }
+    ],
+    "predicted_entities": [
+      {
+        "entity": "jurusan",
+        "start": 45,
+        "end": 47,
+        "confidence_entity": 0.9941980838775635,
+        "value": "ti",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "nilai_suliet",
+        "start": 53,
+        "end": 58,
+        "confidence_entity": 0.609660267829895,
+        "value": "nilai",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 69,
+        "end": 75,
+        "confidence_entity": 0.999233603477478,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "nilai_suliet",
+        "start": 76,
+        "end": 86,
+        "confidence_entity": 0.6580758094787598,
+        "value": "lima ratus",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 87,
+        "end": 90,
+        "confidence_entity": 0.900309145450592,
+        "value": "and",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 91,
+        "end": 99,
+        "confidence_entity": 0.9407992362976074,
+        "value": "angkatan",
+        "extractor": "DIETClassifier"
+      },
+      {
+        "entity": "condition",
+        "start": 100,
+        "end": 106,
+        "confidence_entity": 0.9987078905105591,
+        "value": "more than",
+        "extractor": "DIETClassifier",
+        "processors": [
+          "EntitySynonymMapper"
+        ]
+      },
+      {
+        "entity": "angkatan",
+        "start": 107,
+        "end": 120,
+        "confidence_entity": 0.7783570289611816,
+        "value": "angkatan 2018",
+        "extractor": "DIETClassifier"
+      }
+    ]
+  }
+]

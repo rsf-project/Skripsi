@@ -1,0 +1,140 @@
+version: "2.0"
+nlu:
+- intent: start
+  examples: |
+    - start
+    - /start
+- intent: TanyaMataKuliah
+  examples: |
+    - tampilkan Satuan Kredit Semester mata kuliah dengan nama yang mengandung kata [kripto](mata_kuliah)
+    - tampilkan sks dan kode mata kuliah dengan nama [Technopreneurship](mata_kuliah)
+    - tampilkan sks, kode, dan nama dari mata kuliah dengan kode yang diawali huruf [FIK]{"entity":"kode","value":"Fakultas Ilmu Komputer"}
+    - tolong cari kode dari mata kuliah dengan nama [kalkulus](mata_kuliah)
+    - Berapa jumlah SKS untuk mata kuliah dengan nama [kalkulus](mata_kuliah) ?
+    - Temukan kode mata kuliah dengan nama [kalkulus](mata_kuliah)
+    - Temukan kode mata kuliah dengan nama [Probabilitas dan Statistika](mata_kuliah)
+    - Tampilkan sks pada mata kuliah dengan nama [kalkulus](mata_kuliah)
+    - Sebutkan kode dari mata kuliah [pengolahan citra](mata_kuliah)
+    - sebutkan mata kuliah pilihan pada [semester 5](semester)
+    - sebutkan mata kuliah pilihan pada [semester 7](semester)
+    - sebutkan nama, dan sks mata kuliah pilihan pada [semester 2](semester)
+    - Apa saja mata kuliah pilihan yang bisa diambil pada [semester 6](semester) ?
+    - Apa nama dan sks mata kuliah dengan kode [FIK20022](kode) ?
+    - Apa nama mata kuliah dengan kode [FIK23222](kode) ?
+    - tampilkan sks mata kuliah dengan nama [SKRIPSI](mata_kuliah)
+    - tampilkan data mata kuliah
+    - Tolong temukan daftar mata kuliah
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata [android](mata_kuliah)
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata [game](mata_kuliah)
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata [web](mata_kuliah)
+    - semester berapakah mata kuliah dengan nama mengandung kata [kp]{"entity":"mata_kuliah","value":"kerja praktek"}
+    - semester berapakah mata kuliah dengan nama mengandung kata [skripsi](mata_kuliah)
+    - carikan data mata kuliah dengan kode [FIK002317](kode)
+    - Temukan nama matakuliah yang memiliki Kode [FIK001XXX](kode)
+    - lihat kode matakuliah yang bernama [alpro]{"entity":"mata_kuliah","value":"algoritma dan pemrograman"}
+    - tampilkan data daftar mk
+    - sebutkan daftar mk yang memiliki [sks 4](sks)
+    - sebutkan daftar mk yang memiliki [sks 3](sks)
+    - sebutkan daftar mk yang memiliki [sks 2](sks)
+    - tampilkan daftar mk pada [semester 7](semester)
+
+- intent: TanyaDosen
+  examples: |
+    - Minta daftar dosen yang berjurusan [teknik informatika](jurusan)
+    - Sebutkan nama dosen dengan nomor induk pegawai [mengandung angka 001](nip) dan berjenis kelamin [pria](gender)
+    - tampilkan daftar nama dosen
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Adi](nama_mahasiswa)
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Febyk](nama_mahasiswa)
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Nadia](nama_mahasiswa)
+    - Berapa NIP dosen dengan nama [abdiansyah](nama_dosen) ?
+    - Tampilkan profil dosen dengan nama berawalan kata [nabila](nama_dosen)
+    - Siapa dosen PA mahasiswa yang memiliki [NIM 0902118182XXXX](nim) ?
+    - Siapa dosen pembimbing dari mahasiswa dengan [nim xxxxxxxx](nim)
+    - Berapa nip dosen yang bernama [qurhanul](nama_dosen) ?
+    - Berapa nip dosen yang memiliki nama [naufal](nama_dosen) ?
+    - Siapa saja dosen [teknik informatika](jurusan) yang berjenis kelamin [perempuan](gender) ?
+    - Siapa saja dosen yang berjenis kelamin [laki-laki](gender) ?
+    - tampilkan data dosen
+    - Tampilkan dosen PA dari mahasiswa
+    - Cari nama dosen [laki laki](gender) [teknik informatika](jurusan)
+    - Siapa saja dosen dari jurusan [teknik informatika](jurusan) yang berjenis kelamin [laki-laki](gender) ?
+    - sebutkan nomor induk pegawai dari dosen yang memiliki nama mengandung kata [santoso](nama_dosen)
+    - Temukan nama dosen yang memiliki NIP [909231902](nip)
+
+- intent: TanyaMahasiswa
+  examples: |
+    - Carikan data mahasiswa yang [angkatan 2018](angkatan) dan berjenis kelamin [lelaki](gender)
+    - tampilkan data mahasiswa dengan nomor induk mahasiswa yaitu [09021181823168](nim)
+    - Tolong berikan daftar nama mahasiswa yang berjenis kelamin [wanita](gender)
+    - tampilkan mahasiswa dengan dosen pembimbing [abdiansyah](nama_dosen)
+    - tampilkan nama, angkatan, dan program studi mahasiswa dengan nomor induk mahasiswa [diakhiri angka 20](nim) dan tahun [angkatan dibawah 2018](angkatan)
+    - Temukan data mahasiswa dengan nama [adi](nama_mahasiswa)
+    - Temukan nama mahasiswa yang memiliki [NIM 09021181823168](nim)
+    - Siapa nama mahasiswa yang memiliki [NIM 09021281823039](nim) ?
+    - Berapa IPK mahasiswa dengan [NIM 0902181823003](nim) ?
+    - berapa nilai suliet mahasiswa dengan [nim 09021181823003](nim)
+    - Carikan data mahasiswa dengan [NIM 09021281823051](nim)
+    - sebutkan Indeks Prestasi Kumulatif mahasiswa dengan [nim 0902xxxxx](nim)
+    - Siapa nama mahasiswa yang memiliki [NIM 0902118182XXXX](nim) ?
+    - Tampilkan data mahasiswa yang bernama [Dahlia](nama_mahasiswa)
+    - temukan nama mahasiswa yang memiliki [nim 0902118xxxx](nim)
+    - Tampilkan mahasiswa teknik informatika [angkatan 2017](angkatan)
+    - Berapa nim mahasiswa dengan nama mengandung kata [virani](nama_mahasiswa) ?
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin [perempuan](gender) pada jurusan [Informatika](jurusan) [angkatan 2018](angkatan)
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin [pria](gender)
+    - tampilkan nama mahasiswa yang jenis kelaminnya [perempuan](gender)
+    - temukan mahasiswa yang berjenis kelamin [wanita](gender)
+    - berikan data nim, dan nama seluruh mahasiswa
+    - Siapakah mahasiswa dengan [NIM 09021281823172](nim) ?
+    - Tampilkan data NIM seluruh mahasiswa yang [angkatan 2018](angkatan)
+    - siapa nama mahasiswa dan tahun angkatan dengan [nim 09021281823057](nim)
+    - Siapa nama mahasiswa yang memiliki [nim 09021281823057](nim)
+    - Tampilkan angkatan dari mahasiswa
+    - tampilkan data mahasiswa
+    - tampilkan nama mahasiswa
+    - Tampilkan NIM mahasiswa
+    - Tampilkan data NIM seluruh mahasiswa dengan [angkatan 2018](angkatan)
+    - tampilkan mahasiswa
+    - Tampilkan tahun angkatan dari mahasiswa
+    - Tolong cari daftar nama mahasiswa
+    - Siapa saja mahasiswa [teknik informatika](jurusan) [reguler](prodi) [angkatan 2018](angkatan)
+    - tampilkan mahasiswa dengan [program studi Bilingual](prodi) [angkatan 2018](angkatan) ?
+    - lihat mahasiswa yang nimnya [10113005](nim)
+    - tampilkan nim mahasiswa yang namanya [jamal](nama_mahasiswa)
+    - Tampilkan daftar angkatan dari mahasiswa secara unik
+    - Tampilkan daftar jurusan dari mahasiswa secara unik
+    - Tampilkan daftar nama mahasiswa dengan jurusan berakhiran kata [Informatika](jurusan) dan [program studi Reguler](prodi) dan tahun [angkatan 2015](angkatan)
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin [perempuan](gender) pada [jurusan TI]{"entity":"jurusan","value":"teknik informatika"} [angkatan 2018](angkatan)
+    - temukan angkatan mahasiswa secara unik
+    - tampilkan nama dan nilai suliet dari mahasiswa urutkan berdasarkan nilai suliet meningkat
+    - berikan data mahasiswa dengan [ipk 4](ipk)
+    - Berikan daftar nama mahasiswa yang berjenis kelamin [perempuan](gender) angkatan [2020](angkatan)
+    - sebutkan nomor induk mahasiswa dan nama dari mahasiswa yang [berangkatan dibawah 2019](angkatan) 
+
+- intent: TanyaDenganKondisi
+  examples: |
+    - sebutkan nama mata kuliah pada [semester 6](semester) urutkan [berdasarkan nama](order_by) dan [batasi 9](limit_unique) data secara unik
+    - tampilkan nama matakuliah dengan kode diakhiri [angka 10](kode) [batasi 2](limit) data
+    - tampilkan nama dosen dengan nama [diawali huruf a](nama_dosen) dan nip [diawali angka 1](nip) urutkan [berdasarkan nip](order_by) [batasi 5](limit_unique) data secara unik
+    - temukan data dosen [batasi 5](limit) data
+    - temukan data dosen urutkan [berdasarkan nip](order_by_desc) meningkat [nama](nama_dosen) menurun
+    - tampilkan nama mahasiswa secara unik yang memiliki nim [berawalan 090210](nim) [atau]{"entity":"condition","value":"or"} nim [berawalan 090211](nim) [dan]{"entity":"condition","value":"and"} [angkatan 2018](angkatan) [atau]{"entity":"condition","value":"or"} angkatan [diatas]{"entity":"condition","value":"more than"} [angkatan 2019](angkatan) dengan jenis kelamin [laki laki](gender) [batasi 5](limit) data urutkan [berdasarkan nim](order_by)
+    - temukan secara unik nama dan nilai usept dari mahasiswa yang [nilai useptnya 500](nilai_suliet) urutkan [berdasarkan nama](order_by_desc) menurun
+    - Tampilkan ipk , dan nama mahasiswa yang [berangkatan 2018](angkatan) urutkan [berdasarkan ipk](order_by_desc) menurun [batasi 10](limit) data
+    - Tampilkan nama mahasiswa dengan IPK [lebih besar dari]{"entity":"condition","value":"more than"} [tiga](ipk) [batasi 5](limit) data
+    - Tolong carikan nama mahasiswa yang [angkatan 2018](angkatan) urutkan [berdasarkan NIM](order_by_desc) secara menurun
+    - Tolong temukan data mahasiswa dengan [angkatan dibawah 2018](angkatan) [batasi 10](limit) data
+    - tampilkan data mahasiswa dengan nama mengandung [kata awan](nama_mahasiswa) dan tahun [angkatan 2018](angkatan) [atau]{"entity":"condition","value":"or"} [angkatan 2019](angkatan)
+    - temukan data mahasiswa yang memiliki nama mengandung [kata adi](nama_mahasiswa) [atau]{"entity":"condition","value":"or"} nama [berakhiran huruf a](nama_mahasiswa) ipk [diatas]{"entity":"condition","value":"more than"} [tiga](ipk) ?
+    - sebutkan mahasiswa yang [nilai sulietnya 500](nilai_suliet)
+    - tampilkan mahasiswa dengan nim [diatas]{"entity":"condition","value":"more than"} [0902](nim) dan [angkatan dibawah 2018](angkatan)
+    - tampilkan nama mahasiswa dengan nilai suliet [lebih besar dari]{"entity":"condition","value":"more than"} [lima ratus](nilai_suliet)
+    - Berikan data mahasiswa dengan IPK [kurang dari]{"entity":"condition","value":"less than"} [tiga](ipk)
+    - Berikan data mahasiswa dengan IPK [lebih dari]{"entity":"condition","value":"more than"} [tiga](ipk)
+    - Cari data mahasiswa yang memiliki nilai Suliet [lebih dari]{"entity":"condition","value":"more than"} [enam ratus](nilai_suliet)
+    - siapa mahasiswa dengan ipk [dibawah]{"entity":"condition","value":"less than"} [dua](ipk)
+    - Tampilkan mahasiswa dengan IPK [diatas]{"entity":"condition","value":"more than"} [tiga](ipk)
+    - temukan mahasiswa dengan nama berawalan [kata adi](nama_mahasiswa) [dan]{"entity":"condition","value":"and"} [angkatan 2018](angkatan) [atau]{"entity":"condition","value":"or"} [lebih besar dari]{"entity":"condition","value":"more than"} [angkatan 2018](angkatan)
+    - Tampilkan daftar nama mahasiswa yang memiliki ipk [lebih besar]{"entity":"condition","value":"more than"} [tiga koma lima](ipk)
+    - temukan daftar mahasiswa dengan [angkatan 2018] [dan]{"entity":"condition","value":"and"} jurusan [teknik informatika](jurusan)
+    - tampilkan daftar nama mahasiswa dari [jurusan ti]{"entity":"jurusan","value":"teknik informatika"} yang nilai sulietnya [diatas]{"entity":"condition","value":"more than"} [lima ratus](nilai_suliet) [dan]{"entity":"condition","value":"and"} angkatan [diatas]{"entity":"condition","value":"more than"} [angkatan 2018](angkatan)

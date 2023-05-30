@@ -1,0 +1,52 @@
+version: "2.0"
+nlu:
+- intent: TanyaMataKuliah
+  examples: |
+    - sebutkan mata kuliah pilihan pada [semester 7](semester)
+    - sebutkan daftar mk yang memiliki [sks 4](sks)
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata [android](mata_kuliah)
+    - carikan data mata kuliah dengan kode [FIK002317](kode)
+    - Temukan nama matakuliah yang memiliki Kode [FIK001XXX](kode)
+    - lihat kode matakuliah yang bernama [alpro]{"entity":"mata_kuliah","value":"algoritma dan pemrograman"}
+    - tampilkan data daftar mk
+    - Berapa jumlah SKS untuk mata kuliah dengan nama [kalkulus](mata_kuliah) ?
+    - Temukan kode mata kuliah dengan nama [kalkulus](mata_kuliah)
+    - Temukan kode mata kuliah dengan nama [Probabilitas dan Statistika](mata_kuliah)
+    - Tampilkan sks pada mata kuliah dengan nama [kalkulus](mata_kuliah)
+
+- intent: TanyaDosen
+  examples: |
+    - Berapa nip dosen yang bernama [qurhanul](nama_dosen) ?
+    - Berapa nip dosen yang memiliki nama [naufal](nama_dosen) ?
+    - Siapa saja dosen [teknik informatika](jurusan) yang berjenis kelamin [perempuan](gender) ?
+    - Siapa saja dosen yang berjenis kelamin [laki-laki](gender) ?
+    - tampilkan data dosen
+    - Tampilkan dosen PA dari mahasiswa
+    - Sebutkan nama dosen dengan nomor induk pegawai [mengandung angka 001](nip) dan berjenis kelamin [pria](gender)
+    - tampilkan daftar nama dosen
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Adi](nama_mahasiswa)
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Febyk](nama_mahasiswa)
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama [Nadia](nama_mahasiswa)
+
+- intent: TanyaMahasiswa
+  examples: |
+    - tampilkan nama, angkatan, dan program studi mahasiswa dengan nomor induk mahasiswa [diakhiri angka 20](nim) dan tahun [angkatan dibawah 2018](angkatan)
+    - Temukan data mahasiswa dengan nama [adi](nama_mahasiswa)
+    - Temukan nama mahasiswa yang memiliki [NIM 09021181823168](nim)
+    - Siapa nama mahasiswa yang memiliki [NIM 09021281823039](nim) ?
+    - Berapa IPK mahasiswa dengan [NIM 0902181823003](nim) ?
+    - berapa nilai suliet mahasiswa dengan [nim 09021181823003](nim)
+    - Siapa saja mahasiswa [teknik informatika](jurusan) [reguler](prodi) [angkatan 2018](angkatan)
+    - tampilkan mahasiswa dengan [program studi Bilingual](prodi) [angkatan 2018](angkatan) ?
+    - aku mau lihat mahasiswa yang nimnya [1902945](nim)
+    - tampilkan nim mahasiswa yang namanya [danil](nama_mahasiswa)
+    - Tampilkan daftar angkatan dari mahasiswa secara unik
+
+- intent: TanyaDenganKondisi
+  examples: |
+    - coba sebutin nama mata kuliah pada [semester 3](semester) urutkan [berdasarkan nama](order_by) dan [batasi 9](limit_unique) data secara unik
+    - aku mau nama matakuliah dengan kode diakhiri [angka 4](kode) [batasi 2](limit) data
+    - tolong cariin nama dosen dengan nama [diawali huruf y](nama_dosen) dan nip [diawali angka 1](nip) urutkan [berdasarkan nip](order_by) [batasi 5](limit_unique) data secara unik
+    - aku mau data dosen [batasi 5](limit) data
+    - tampilin data dosen urutkan [berdasarkan nip](order_by_desc) meningkat [nama](nama_dosen) menurun
+    - tampilkan nama mahasiswa secara unik yang memiliki nim [berawalan 090210](nim) [atau]{"entity":"condition","value":"or"} nim [berawalan 090211](nim) [dan]{"entity":"condition","value":"and"} [angkatan 2018](angkatan) [atau]{"entity":"condition","value":"or"} angkatan [diatas]{"entity":"condition","value":"more than"} [angkatan 2019](angkatan) dengan jenis kelamin [laki laki](gender) [batasi 5](limit) data urutkan [berdasarkan nim](order_by)

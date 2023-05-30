@@ -1,0 +1,136 @@
+version: "2.0"
+nlu:
+- intent: start
+  examples: |
+    - start
+    - /start
+- intent: TanyaMataKuliah
+  examples: |
+    - tampilkan Satuan Kredit Semester mata kuliah dengan nama yang mengandung kata kripto
+    - tampilkan SKS dan kode mata kuliah dengan nama Technopreneurship
+    - tampilkan sks, kode, dan nama dari mata kuliah dengan kode yang diawali huruf FIK
+    - tolong cari kode dari mata kuliah dengan nama kalkulus
+    - Berapa jumlah SKS untuk mata kuliah dengan nama Kalkulus ?
+    - Temukan kode mata kuliah dengan nama kalkulus
+    - Temukan kode mata kuliah dengan nama Probabilitas dan Statistika
+    - Tampilkan sks pada mata kuliah dengan nama kalkulus
+    - Sebutkan kode dari mata kuliah pengolahan citra
+    - sebutkan mata kuliah pilihan pada semester 5
+    - sebutkan mata kuliah pilihan pada semester 7
+    - sebutkan nama, dan sks mata kuliah pilihan pada semester 2
+    - Apa saja mata kuliah pilihan yang bisa diambil pada semester 6?
+    - Apa nama dan sks mata kuliah dengan kode FIK20022?
+    - Apa nama mata kuliah dengan kode FIK23222?
+    - tampilkan sks mata kuliah dengan nama SKRIPSI
+    - tampilkan data mata kuliah
+    - Tolong temukan daftar mata kuliah
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata android
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata game
+    - sebutkan daftar nama mata kuliah dengan nama yang mengandung kata web
+    - semester berapakah mata kuliah dengan nama mengandung kata kp
+    - semester berapakah mata kuliah dengan nama mengandung kata skripsi
+    - sebutkan nama mata kuliah pada semester 6 urutkan berdasarkan nama dan batasi 9 data secara unik
+    - carikan data mata kuliah dengan kode FIK002317
+    - Temukan nama matakuliah yang memiliki Kode FIK001XXX
+    - lihat kode matakuliah yang bernama alpro
+    - tampilkan nama matakuliah dengan kode diakhiri angka 10 batasi 2 data
+    - tampilkan data daftar mk
+    - sebutkan daftar mk yang memiliki sks 4
+    - tampilkan daftar mk pada semester 7
+
+- intent: TanyaDosen
+  examples: |
+    - Minta daftar dosen yang berjurusan teknik informatika
+    - Sebutkan nama dosen dengan nomor induk pegawai mengandung angka 001 dan berjenis kelamin pria
+    - tampilkan daftar nama dosen
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama Adi
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama Febyk
+    - Berikan data dosen pembimbing dari mahasiswa yang bernama Nadia
+    - Berapa NIP dosen dengan nama abdiansyah?
+    - Tampilkan profil dosen dengan nama berawalan kata nabila
+    - Siapa dosen PA mahasiswa yang memiliki NIM 0902118182XXXX ?
+    - Siapa dosen pembimbing dari mahasiswa dengan nim xxxxxxxx
+    - Berapa nip dosen yang bernama qurhanul?
+    - Berapa nip dosen yang memiliki nama naufal?
+    - Siapa saja dosen teknik informatika yang berjenis kelamin perempuan?
+    - Siapa saja dosen yang berjenis kelamin laki-laki?
+    - tampilkan data dosen
+    - Tampilkan dosen PA dari mahasiswa
+    - Cari nama dosen laki laki teknik informatika
+    - Siapa saja dosen dari jurusan teknik informatika yang berjenis kelamin laki-laki?
+    - sebutkan nomor induk pegawai dari dosen yang memiliki nama mengandung kata santoso
+    - Temukan nama dosen yang memiliki NIP 909231902
+    - tampilkan nama dosen dengan nama diawali huruf a dan nip diawali angka 1 urutkan berdasarkan nip batasi 5 data secara unik
+    - Tampilkan nama, dan NIP dosen yang memiliki nama berawalan huruf a urutkan berdasarkan NIP secara meningkat
+    - temukan data dosen batasi 5 data
+    - temukan data dosen urutkan berdasarkan nip meningkat nama menurun
+
+- intent: TanyaMahasiswa
+  examples: |
+    - Carikan data mahasiswa yang angkatan 2018 dan berjenis kelamin lelaki
+    - tampilkan data mahasiswa dengan nama mengandung kata awan dan tahun angkatan 2018 atau angkatan 2019
+    - tampilkan data mahasiswa dengan nomor induk mahasiswa yaitu 09021181823168
+    - temukan data mahasiswa yang memiliki nama mengandung kata adi atau nama berakhiran huruf a ipk diatas 3 ?
+    - Tolong berikan daftar nama mahasiswa yang berjenis kelamin wanita
+    - sebutkan mahasiswa yang nilai sulietnya diatas 500
+    - tampilkan mahasiswa dengan dosen pembimbing abdiansyah
+    - tampilkan mahasiswa dengan nim diatas 0902 dan angkatan dibawah 2018
+    - tampilkan nama mahasiswa dengan nilai suliet lebih besar sama dengan 500
+    - tampilkan nama, angkatan, dan program studi mahasiswa dengan nomor induk mahasiswa diakhiri angka 20 dan tahun angkatan dibawah 2018
+    - Temukan data mahasiswa dengan nama adi
+    - Temukan nama mahasiswa yang memiliki NIM 09021181823168
+    - Berikan data mahasiswa dengan IPK < 3
+    - Berikan data mahasiswa dengan IPK > 3
+    - Cari data mahasiswa yang memiliki nilai Suliet > 600
+    - Siapa nama mahasiswa yang memiliki NIM 09021281823039?
+    - Berapa IPK mahasiswa dengan NIM 0902181823003 ?
+    - berapa nilai suliet mahasiswa dengan nim 09021181823003
+    - Carikan data mahasiswa dengan NIM 09021281823051
+    - siapa mahasiswa dengan ipk dibawah 2
+    - sebutkan Indeks Prestasi Kumulatif mahasiswa dengan nim 0902xxxxx
+    - Siapa nama mahasiswa yang memiliki NIM 0902118182XXXX ?
+    - Tampilkan data mahasiswa yang bernama Dahlia
+    - temukan nama mahasiswa yang memiliki nim 0902118xxxx
+    - Tampilkan mahasiswa teknik informatika angkatan 2017
+    - Berapa nim mahasiswa dengan nama mengandung kata virani ?
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin perempuan pada jurusan Informatika angkatan 2018
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin pria
+    - tampilkan nama mahasiswa yang jenis kelaminnya perempuan
+    - temukan mahasiswa yang berjenis kelamin wanita
+    - berikan data nim, dan nama seluruh mahasiswa
+    - Siapakah mahasiswa dengan NIM 09021281823172?
+    - Tampilkan data NIM seluruh mahasiswa yang angkatan 2018
+    - Tampilkan mahasiswa dengan IPK diatas 3
+    - siapa nama mahasiswa dan tahun angkatan dengan nim 09021281823057
+    - Siapa nama mahasiswa yang memiliki nim 09021281823057
+    - Tampilkan angkatan dari mahasiswa
+    - tampilkan data mahasiswa
+    - tampilkan nama mahasiswa
+    - Tampilkan NIM mahasiswa
+    - Tampilkan data NIM seluruh mahasiswa dengan angkatan 2018
+    - tampilkan mahasiswa
+    - Tampilkan tahun angkatan dari mahasiswa
+    - Tolong cari daftar nama mahasiswa
+    - Siapa saja mahasiswa teknik informatika reguler 2018
+    - tampilkan mahasiswa dengan program studi Bilingual angkatan 2018?
+    - lihat mahasiswa yang nimnya 10113005
+    - tampilkan nim mahasiswa yang namanya jamal
+    - Tampilkan daftar angkatan dari mahasiswa secara unik
+    - Tampilkan daftar jurusan dari mahasiswa secara unik
+    - Tampilkan daftar nama mahasiswa dengan jurusan berakhiran kata Informatika dan program studi Reguler dan tahun angkatan 2015
+    - Tampilkan daftar nama mahasiswa yang berjenis kelamin perempuan pada jurusan TI angkatan 2018
+    - tampilkan nama mahasiswa secara unik yang memiliki nim berawalan 090210 atau nim berawalan 090211 dan angkatan 2018 atau angkatan diatas 2019 dengan jenis kelamin laki laki batasi 5 data urutkan berdasarkan nim
+    - temukan angkatan mahasiswa secara unik
+    - temukan mahasiswa dengan nama berawalan kata adi dan angkatan 2018 atau angkatan lebih besar sama dengan 2018
+    - temukan secara unik nama dan nilai usept dari mahasiswa yang nilai useptnya diatas 500 urutkan berdasarkan nama menurun
+    - Tampilkan ipk , dan nama mahasiswa yang berangkatan 2018 urutkan berdasarkan ipk menurun batasi 10 data
+    - tampilkan nama dan nilai suliet dari mahasiswa urutkan berdasarkan nilai suliet meningkat
+    - Tampilkan nama mahasiswa dengan IPK lebih besar dari 3 batasi 5 data
+    - Tolong carikan nama mahasiswa yang angkatan 2018 urutkan berdasarkan NIM secara menurun
+    - Tolong temukan data mahasiswa dengan angkatan dibawah 2018 batasi 10 data
+    - Tampilkan daftar nama mahasiswa yang memiliki ipk lebih besar sama dengan 3.5
+    - temukan daftar mahasiswa dengan angkatan 2018 & jurusan teknik informatika
+    - tampilkan daftar nama mahasiswa dari jurusan ti yang nilai sulietnya diatas 500 & angkatan 2018
+    - berikan data mahasiswa dengan ipk 4
+    - Berikan daftar nama mahasiswa yang berjenis kelamin perempuan angkatan 2020
+    - sebutkan nomor induk mahasiswa dan nama dari mahasiswa yang berangkatan dibawah 2019 

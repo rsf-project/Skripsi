@@ -1,0 +1,170 @@
+{
+  "kode": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "angkatan": 2
+    }
+  },
+  "semester": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 12,
+    "confused_with": {}
+  },
+  "angkatan": {
+    "precision": 0.8032786885245902,
+    "recall": 1.0,
+    "f1-score": 0.8909090909090909,
+    "support": 49,
+    "confused_with": {}
+  },
+  "nim": {
+    "precision": 0.9166666666666666,
+    "recall": 0.9166666666666666,
+    "f1-score": 0.9166666666666666,
+    "support": 36,
+    "confused_with": {
+      "angkatan": 2,
+      "condition": 1
+    }
+  },
+  "sks": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "nip": {
+    "precision": 1.0,
+    "recall": 0.7142857142857143,
+    "f1-score": 0.8333333333333333,
+    "support": 7,
+    "confused_with": {
+      "nim": 1
+    }
+  },
+  "ipk": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 11,
+    "confused_with": {}
+  },
+  "order_by": {
+    "precision": 0.6666666666666666,
+    "recall": 0.3333333333333333,
+    "f1-score": 0.4444444444444444,
+    "support": 6,
+    "confused_with": {
+      "order_by_desc": 4
+    }
+  },
+  "gender": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 16,
+    "confused_with": {}
+  },
+  "nama_dosen": {
+    "precision": 1.0,
+    "recall": 0.9,
+    "f1-score": 0.9473684210526316,
+    "support": 10,
+    "confused_with": {
+      "order_by_desc": 1
+    }
+  },
+  "nilai_suliet": {
+    "precision": 0.8571428571428571,
+    "recall": 1.0,
+    "f1-score": 0.923076923076923,
+    "support": 12,
+    "confused_with": {}
+  },
+  "limit": {
+    "precision": 0.75,
+    "recall": 1.0,
+    "f1-score": 0.8571428571428571,
+    "support": 12,
+    "confused_with": {}
+  },
+  "jurusan": {
+    "precision": 0.8888888888888888,
+    "recall": 0.8888888888888888,
+    "f1-score": 0.8888888888888888,
+    "support": 18,
+    "confused_with": {
+      "nama_mahasiswa": 1
+    }
+  },
+  "nama_mahasiswa": {
+    "precision": 0.8421052631578947,
+    "recall": 1.0,
+    "f1-score": 0.9142857142857143,
+    "support": 16,
+    "confused_with": {}
+  },
+  "condition": {
+    "precision": 0.9142857142857143,
+    "recall": 0.9696969696969697,
+    "f1-score": 0.9411764705882354,
+    "support": 33,
+    "confused_with": {
+      "angkatan": 1
+    }
+  },
+  "order_by_desc": {
+    "precision": 0.5714285714285714,
+    "recall": 1.0,
+    "f1-score": 0.7272727272727273,
+    "support": 8,
+    "confused_with": {}
+  },
+  "limit_unique": {
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1-score": 0.0,
+    "support": 4,
+    "confused_with": {
+      "limit": 4
+    }
+  },
+  "prodi": {
+    "precision": 0.875,
+    "recall": 1.0,
+    "f1-score": 0.9333333333333333,
+    "support": 7,
+    "confused_with": {}
+  },
+  "mata_kuliah": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 18,
+    "confused_with": {}
+  },
+  "micro avg": {
+    "precision": 0.8790849673202614,
+    "recall": 0.9340277777777778,
+    "f1-score": 0.9057239057239058,
+    "support": 288
+  },
+  "macro avg": {
+    "precision": 0.8466033324611499,
+    "recall": 0.865113541429331,
+    "f1-score": 0.8448016949646411,
+    "support": 288
+  },
+  "weighted avg": {
+    "precision": 0.8784302478361203,
+    "recall": 0.9340277777777778,
+    "f1-score": 0.8988302446893779,
+    "support": 288
+  }
+}

@@ -1,0 +1,41 @@
+version: '2.0'
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
+intents:
+- start
+- TanyaMataKuliah
+- TanyaDosen
+- TanyaMahasiswa
+- TanyaDenganKondisi
+entities:
+- mata_kuliah
+- kode
+- semester
+- sks
+- jurusan
+- angkatan
+- prodi
+- gender
+- nama_mahasiswa
+- nama_dosen
+- nim
+- ipk
+- nilai_suliet
+- nip
+- order_by
+- order_by_desc
+- limit
+- limit_unique
+- condition
+responses:
+  utter_start:
+  - text: "Halo saya RASA chatbot, ada yang bisa saya bantu ?"
+  utter_TanyaMataKuliah:
+  - text: "ini response dari intent TanyaMataKuliah"
+  utter_TanyaDosen:
+  - text: "ini response dari intent TanyaDosen"
+  utter_TanyaMahasiswa:
+  - text: "ini response dari intent TanyaMahasiswa"
+actions:
+  - Answer

@@ -1,0 +1,10 @@
+[
+  {
+    "text": "coba cari nama mahasiswa secara unik yang memiliki nim berawalan 090210 [atau]{\"entity\":\"cond",
+    "intent": "TanyaDenganKondisi",
+    "intent_prediction": {
+      "name": "TanyaMahasiswa",
+      "confidence": 0.997757613658905
+    }
+  }
+]

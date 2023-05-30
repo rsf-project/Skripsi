@@ -1,0 +1,66 @@
+version: "2.0"
+nlu:
+- intent: start
+  examples: |
+    - /start
+- intent: TanyaDosen
+  examples: |
+    - tampilkan data dosen
+    - Sebutkan nama dosen dengan nomor induk pegawai [mengandung angka 001](nip) dan berjenis kelamin [pria](gender)
+    - Siapa dosen pembimbing dari mahasiswa dengan [nim xxxxxxxx](nim)
+    - Siapa saja dosen yang berjenis kelamin [laki-laki](gender) ?
+- intent: TanyaDenganKondisi
+  examples: |
+    - Tolong temukan data mahasiswa dengan [angkatan dibawah 2018](angkatan) [batasi 10](limit) data
+    - temukan data mahasiswa yang memiliki nama mengandung [kata adi](nama_mahasiswa) [atau]{"entity": "condition", "value": "or"} nama [berakhiran huruf a](nama_mahasiswa) ipk [diatas]{"entity": "condition", "value": "more than"} [tiga](ipk) ?
+    - tampilkan nama mahasiswa dengan nilai suliet [lebih besar dari]{"entity": "condition", "value": "more than"} [lima ratus](nilai_suliet)
+    - tampilkan mahasiswa dengan nim [diatas]{"entity": "condition", "value": "more than"} [0902](nim) dan [angkatan dibawah 2018](angkatan)
+    - temukan secara unik nama dan nilai usept dari mahasiswa yang [nilai useptnya 500](nilai_suliet) urutkan [berdasarkan nama](order_by_desc) menurun
+- intent: TanyaMataKuliah
+  examples: |
+    - Sebutkan kode dari mata kuliah [pengolahan citra](mata_kuliah)
+    - tampilkan sks mata kuliah dengan nama [SKRIPSI](mata_kuliah)
+    - tampilkan sks, kode, dan nama dari mata kuliah dengan kode yang diawali huruf [FIK]{"entity": "kode", "value": "Fakultas Ilmu Komputer"}
+    - sebutkan daftar mk yang memiliki [sks 3](sks)
+    - sebutkan nama, dan sks mata kuliah pilihan pada [semester 2](semester)
+    - lihat kode matakuliah yang bernama [alpro]{"entity": "mata_kuliah", "value": "algoritma dan pemrograman"}
+- intent: TanyaMahasiswa
+  examples: |
+    - Siapa saja mahasiswa [teknik informatika](jurusan) [reguler](prodi) [angkatan 2018](angkatan)
+    - Carikan data mahasiswa dengan [NIM 09021281823051](nim)
+    - Tampilkan daftar angkatan dari mahasiswa secara unik
+    - Tampilkan angkatan dari mahasiswa
+    - Berikan daftar nama mahasiswa yang berjenis kelamin [perempuan](gender) [angkatan 2020](angkatan)
+    - tampilkan nama, angkatan, dan program studi mahasiswa dengan nomor induk mahasiswa [diakhiri angka 20](nim) dan tahun [angkatan dibawah 2018](angkatan)
+    - Carikan data mahasiswa yang [angkatan 2018](angkatan) dan berjenis kelamin [lelaki](gender)
+    - temukan nama mahasiswa yang memiliki [nim 0902118xxxx](nim)
+    - lihat mahasiswa yang nimnya [10113005](nim)
+- synonym: Fakultas Ilmu Komputer
+  examples: |
+    - FIK
+- synonym: kerja praktek
+  examples: |
+    - kp
+- synonym: algoritma dan pemrograman
+  examples: |
+    - alpro
+- synonym: teknik informatika
+  examples: |
+    - jurusan TI
+    - jurusan ti
+- synonym: or
+  examples: |
+    - atau
+- synonym: and
+  examples: |
+    - dan
+- synonym: more than
+  examples: |
+    - diatas
+    - lebih besar dari
+    - lebih dari
+    - lebih besar
+- synonym: less than
+  examples: |
+    - kurang dari
+    - dibawah
