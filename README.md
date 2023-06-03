@@ -35,7 +35,7 @@ Run ngrok server
 ```bash
 ngrok http 5005
 ```
-Edit credentials.yml seperti coontoh dibawah (sesuaikan bot token dan link ngrok yang ada)
+Edit credentials.yml seperti contoh dibawah (sesuaikan bot token dan link ngrok yang ada)
 ```bash
 telegram:
   access_token: "6228868277:AAGEp0MxdkRIKBciZNPxumAm5bh1Zus54y0"
