@@ -4,6 +4,9 @@ Framework RASA menggunakan metode Softmax untuk klasifikasi intent dan Condition
 # RAW Dataset
 Link : https://github.com/adikurniawanid/express-unsribot-api
 
+# Dataset yang telah diproses
+Link : https://github.com/rsf-project/skripsi/blob/main/data/nlu.yml
+
 # Testing On
 - RASA Framework 2.8.6
 - Python 3.18
