@@ -21,15 +21,34 @@ Membuat bot baru dari telegram dan mendapatkan username dan bot token
 ```bash
 https://learn.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-telegram?view=azure-bot-service-4.0
 ```
-
+Install ngrok 3.2.2
+```bash
+apt install ngrok
+```
 
 # Running RASA
 Masuk pada directory dimana RASA di install.
-Edit credentials.yml
+Run ngrok server
+```bash
+ngrok http 5005
+```
+Edit credentials.yml seperti coontoh dibawah (sesuaikan bot token dan link ngrok yang ada)
 ```bash
 telegram:
   access_token: "6228868277:AAGEp0MxdkRIKBciZNPxumAm5bh1Zus54y0"
   verify: "devrasa_bot"
   webhook_url: "https://0275-202-67-43-43.ap.ngrok.io/webhooks/telegram/webhook"
 ```
-
+Run RASA actions
+```bash
+rasa run actions
+```
+Run RASA server
+```bash
+rasa run
+```
+Buka telegram dan cahtbot siap digunakan. Berikut contoh penggunaan chatbot melalui telegram
+![cover manual book](https://github.com/rsf-project/skripsi/blob/main/results/Screenshot_20230603_215617.png)
+# Akses chatbot via telegram
+- Buka telegram dan cari id bot : devrasa_bot
+- masukkan kalimat pertanyaan atau perintah seputar sistem akademik
