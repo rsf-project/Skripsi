@@ -29,6 +29,18 @@ Install ngrok 3.2.2
 apt install ngrok
 ```
 
+# Initializing RASA project
+```bash
+rasa init
+```
+
+# Training model
+```bash
+rasa train
+or
+rasa train --nlu "directory dimana nlu.yml berada"
+```
+
 # Running RASA
 Masuk pada directory dimana RASA di install.
 Run ngrok server
@@ -49,6 +61,11 @@ rasa run actions
 Run RASA server
 ```bash
 rasa run
+```
+
+# Akses chatbot via cmd
+```bash
+rasa shell
 ```
 
 # Akses chatbot via telegram
