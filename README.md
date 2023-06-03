@@ -54,4 +54,5 @@ rasa run
 # Akses chatbot via telegram
 - Setelah semua setup diatas dilakukan, langkah selanjutnya adalah membuka telegram dan cari id bot : devrasa_bot
 - masukkan kalimat pertanyaan atau perintah seputar sistem akademik. Berikut contoh penggunaan chatbot melalui telegram
+
 ![cover manual book](https://github.com/rsf-project/skripsi/blob/main/results/Screenshot_20230603_215617.png)
