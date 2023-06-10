@@ -1,4 +1,6 @@
 # Klasifikasi Intent dan Pengenalan Entitas pada Framework RASA Menggunakan Softmax dan Conditional Random Field
+
+![cover manual book](https://github.com/rsf-project/skripsi/blob/main/app.png)
 Framework RASA menggunakan metode Softmax untuk klasifikasi intent dan Conditional Random Field (CRF) untuk pengenalan entitas adalah chatbot yang digunakan untuk klasifikasi intent dan pengenalan entitas dari pertanyaan yang dimasukkan pengguna, dengan masukkan kepada sistem berupa kalimat tanya atau perintah melalui aplikasi telegram yang di integrasikan pada chatbot melalui telegram webhook. Masukkan berupa pertanyaan seputar sistem akademik Teknik Informatika Universitas Sriwijaya.
 
 # RAW Dataset
