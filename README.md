@@ -73,3 +73,13 @@ rasa shell
 - masukkan kalimat pertanyaan atau perintah seputar sistem akademik. Berikut contoh penggunaan chatbot melalui telegram
 
 ![cover manual book](https://github.com/rsf-project/skripsi/blob/main/results/Screenshot_20230603_215617.png)
+
+# Hasil pengujian terhadap pengenalan entitas
+
+<img src="https://github.com/rsf-project/skripsi/blob/main/results/DIETClassifier_histogram.png" width="1024" height="1024">
+<img src="https://github.com/rsf-project/skripsi/blob/main/results/DIETClassifier_confusion_matrix.png" width="1024" height="1024">
+
+# Hasil pengujian terhadap klasifikasi intent
+
+<img src="https://github.com/rsf-project/skripsi/blob/main/results/intent_histogram.png" width="1024" height="1024">
+<img src="https://github.com/rsf-project/skripsi/blob/main/results/intent_confusion_matrix.png" width="1024" height="1024">
